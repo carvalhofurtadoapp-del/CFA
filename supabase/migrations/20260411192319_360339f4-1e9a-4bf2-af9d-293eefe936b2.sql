@@ -1,0 +1,1 @@
+ALTER TABLE public.lotes_confinamento ADD COLUMN dieta_id uuid REFERENCES public.dietas(id) ON DELETE SET NULL;

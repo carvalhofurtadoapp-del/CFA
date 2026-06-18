@@ -1,0 +1,1 @@
+ALTER TABLE public.gastos ADD COLUMN fornecedor text DEFAULT null;
